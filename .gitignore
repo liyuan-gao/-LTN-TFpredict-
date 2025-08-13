@@ -136,6 +136,11 @@ model/*.pth
 model/*.pt
 model/*.bin
 model/*.h5
+saved_model/
+saved_model/*.pth
+saved_model/*.pt
+saved_model/*.bin
+saved_model/*.h5
 
 # Training outputs
 *.pkl
