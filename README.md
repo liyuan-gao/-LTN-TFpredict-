@@ -154,13 +154,13 @@ python compare_seq_ltn_vs_baseline.py
 ### Performance Comparison
 | Model Type | Test Accuracy | Test F1 | Logical Satisfaction | Interpretability |
 |------------|---------------|---------|---------------------|------------------|
-| **LTN CNN** | **93.7%** | **94.2%** | **0.887** | ✅ **High** |
-| LTN BiLSTM | 89.4% | 90.1% | 0.823 | ✅ **High** |
-| LTN CNN+BiLSTM | 91.2% | 91.8% | 0.856 | ✅ **High** |
-| Baseline BiLSTM | 87.6% | 88.3% | ❌ N/A | ❌ Low |
-| Baseline CNN+BiLSTM | 89.1% | 89.7% | ❌ N/A | ❌ Low |
-| Multi-Loss | 96.7% | 93.8% | ⚠️ Pseudo-Sat | ⚠️ Medium |
-| Data Augmentation | 98.3% | 98.6% | ❌ N/A | ❌ Low |
+| **LTN CNN** | **96.8%** | **95.1%** | **0.883** | ✅ **High** |
+| LTN BiLSTM | 93.2% | 87.9% | 0.795 | ✅ **High** |
+| LTN CNN+BiLSTM | 91.7% | 84.8% | 0.767 | ✅ **High** |
+| Baseline BiLSTM | 93.0% | 88.2% | ❌ N/A | ❌ Low |
+| Baseline CNN+BiLSTM | 92.2% | 87.2% | ❌ N/A | ❌ Low |
+| Multi-Loss | 96.3% | 93.5% | ⚠️ Pseudo-Sat | ⚠️ Medium |
+| Data Augmentation | 94.9% | 91.7% | ❌ N/A | ❌ Low |
 
 ### Key Insights
 1. **LTN provides interpretable logical reasoning** unavailable in other methods
@@ -305,7 +305,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 - **GitHub Issues**: Bug reports and feature requests
-- **Email**: your.email@institution.edu
+- **Email**: liygao@ttu.edu
 - **Documentation**: Check code comments and docstrings
 
 ---
